@@ -1,7 +1,7 @@
 {
-  "name": "swot-js",
+  "name": "swot-bloom-js",
   "version": "1.0.3",
-  "description": "js implementation of swot",
+  "description": "js implementation of swot using a bloom filter",
   "main": "lib/swot.js",
   "scripts": {
     "test": "mocha",
@@ -21,6 +21,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "bloomfilter": "0.0.16",
     "chai": "^1.9.2",
     "underscore": "^1.7.0",
     "walk": "^2.3.4"
