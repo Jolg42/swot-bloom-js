@@ -1,40 +1,35 @@
-var expect = require('chai').expect;
-var should = require('chai').should();
+import { expect } from 'chai';
+import { createFilter } from '../src/lib/swot';
+import checkEmail from '../src/lib/checkEmail';
 
-var assert = require('assert');
-
-describe('Swot', function () {
+describe('SwotBloom', function test() {
   this.timeout(5000);
-  
-  describe('has check function', function () {
-    it('should return true', function () {
-      var swot = require('../lib/swot.js')();
-      assert.equal(true, (swot.check != undefined));
-    });
-  });
 
-  describe('test @hdm-stuttgart.de', function () {
-    it('should return true', function (done) {
-      var swot = require('../lib/swot.js')(function () {
-        assert.equal(true, swot.check('mv037@hdm-stuttgart.de'));
+  describe('test @hdm-stuttgart.de', () => {
+    it('should return true', (done) => {
+      createFilter().then((bloom) => {
+        const isInFilter = checkEmail(bloom)('mv037@hdm-stuttgart.de');
+        expect(isInFilter).to.be.equal(true);
         done();
       });
     });
   });
 
-  describe('test @test.de', function () {
-    it('should return false', function (done) {
-      var swot = require('../lib/swot.js')(function () {
-        assert.equal(false, swot.check('mv037@test.de'));
+  describe('test @test.de', () => {
+    it('should return false', (done) => {
+      createFilter().then((bloom) => {
+        const isInFilter = checkEmail(bloom)('mv037@test.de');
+        expect(isInFilter).to.be.equal(false);
         done();
       });
     });
   });
 
-  describe('test @si.edu (blacklisted)', function () {
-    it('should return false', function (done) {
-      var swot = require('../lib/swot.js')(function () {
-        assert.equal(false, swot.check('mv037@si.edu'));
+  describe('test @si.edu (blacklisted)', () => {
+    it('should return false', (done) => {
+      createFilter().then((bloom) => {
+        const isInFilter = checkEmail(bloom)('mv037@si.edu');
+        expect(isInFilter).to.be.equal(false);
         done();
       });
     });
