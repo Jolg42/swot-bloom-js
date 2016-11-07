@@ -29,4 +29,7 @@ module.exports = {
       },
     ],
   },
+  externals: {
+    bloomfilter: 'bloomfilter',
+  },
 };
