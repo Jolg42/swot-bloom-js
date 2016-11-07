@@ -21,8 +21,8 @@ Swot is a community-driven or crowdsourced library for verifying that domain nam
 #### Verify Email Addresses
 
 ```js
-import checkEmail = from 'swot-bloom';
-checkEmail('mv037@hdm-stuttgart.de'); # true
+import checkEmail from 'swot-bloom';
+checkEmail('mv037@hdm-stuttgart.de'); // true
 ```
 
 ### Regenerating the bloom filter
