@@ -25,6 +25,13 @@ import checkEmail = from 'swot-bloom-js';
 checkEmail('mv037@hdm-stuttgart.de'); # true
 ```
 
+### Regenerating the bloom filter
+
+If you want to generate a new bloom filter with different size/false positive rates that can be done by running:
+
+`npm run generateFilter *m/n* *k*`
+
+For further information on the parameters see [Bloom Filters - the math](http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html).
 
 ### Known Issues
 
