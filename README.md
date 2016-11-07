@@ -1,4 +1,4 @@
-# Swot :apple:
+# Swot :blossom:
 
 [![version](https://img.shields.io/npm/v/swot-bloom.svg)](http://npm.im/swot-bloom)
 [![downloads](https://img.shields.io/npm/dm/swot-bloom.svg)](http://npm-stat.com/charts.html?package=swot-bloom)
@@ -67,5 +67,5 @@ If you verified this by visiting all of the websites, how long did it take you? 
 
 * [gman](https://github.com/benbalter/gman) - like swot, but for government emails
 * [swotphp](https://github.com/mdwheele/swotphp) - PHP port of Swot
-* [swot] (https://github.com/leereilly/swot) - Ruby Swot
-* [swot-js] (https://github.com/theotow/swot-js) - JS Swot
+* [swot](https://github.com/leereilly/swot) - Ruby Swot
+* [swot-js](https://github.com/theotow/swot-js) - JS Swot
