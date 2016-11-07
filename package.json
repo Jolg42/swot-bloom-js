@@ -1,6 +1,6 @@
 {
   "name": "swot-bloom",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "js implementation of swot using a bloom filter",
   "main": "dist/client.bundle.js",
   "scripts": {
