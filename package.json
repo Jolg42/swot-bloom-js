@@ -1,12 +1,13 @@
 {
-  "name": "swot-bloom-js",
-  "version": "1.0.3",
+  "name": "swot-bloom",
+  "version": "1.0.0",
   "description": "js implementation of swot using a bloom filter",
   "main": "dist/client.bundle.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "build": "webpack",
-    "generateFilter": "babel-node ./src/buildFilter.js"
+    "generateFilter": "babel-node ./src/buildFilter.js",
+    "clean": "rm -rf dist"
   },
   "author": "",
   "license": "ISC",

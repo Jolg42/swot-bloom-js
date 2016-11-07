@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": ["error", 2],
+        "generator-star-spacing": 0,
+        "allowForLoopAfterthoughts": 0
+    },
+    "plugins": [
+        "import"
+    ],
+    "env": {
+        "mocha": true,
+        "node": true
+    }
+}

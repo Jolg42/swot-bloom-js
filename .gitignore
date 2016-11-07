@@ -1,6 +1,5 @@
 node_modules
-coverage
 launch.json
-.eslintrc*
 dist
 .DS_Store
+npm-debug.log

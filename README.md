@@ -1,7 +1,7 @@
 # Swot :apple:
 
-[![version](https://img.shields.io/npm/v/swot-js.svg)](http://npm.im/swot-bloom-js)
-[![downloads](https://img.shields.io/npm/dm/swot-js.svg)](http://npm-stat.com/charts.html?package=swot-bloom-js)
+[![version](https://img.shields.io/npm/v/swot-js.svg)](http://npm.im/swot-bloom)
+[![downloads](https://img.shields.io/npm/dm/swot-js.svg)](http://npm-stat.com/charts.html?package=swot-bloom)
 [![ISC License](https://img.shields.io/npm/l/swot-js.svg)](https://opensource.org/licenses/ISC)
 
 If you have a product or service and need to know whether an email address belongs to an academic institution, there's a chance there's some manual component to the approval process or a you have a high false positive/negative rate. Perhaps `.edu` email addresses are automatically approved because, for the most part at least, they're associated with American post-secondary educational institutions. Perhaps `.ac.uk` email addresses are automatically approved because they're guaranteed to belong to British universities and colleges. Unfortunately, not every country has an education-specific TLD (Top Level Domain) and plenty of schools use `.com` or `.net`.
@@ -21,7 +21,7 @@ Swot is a community-driven or crowdsourced library for verifying that domain nam
 #### Verify Email Addresses
 
 ```js
-import checkEmail = from 'swot-bloom-js';
+import checkEmail = from 'swot-bloom';
 checkEmail('mv037@hdm-stuttgart.de'); # true
 ```
 
