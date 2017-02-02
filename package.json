@@ -9,7 +9,12 @@
     "generateFilter": "babel-node ./src/buildFilter.js",
     "clean": "rm -rf dist"
   },
-  "author": "",
+  "author": "James Coward",
+  "homepage": "https://github.com/SDFE/swot-bloom-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SDFE/swot-bloom-js.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.18.2",
