@@ -11,10 +11,10 @@
     "clean": "rm -rf dist"
   },
   "author": "James Coward",
-  "homepage": "https://github.com/SDFE/swot-bloom-js",
+  "homepage": "https://github.com/jamescoward/swot-bloom-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SDFE/swot-bloom-js.git"
+    "url": "https://github.com/jamescoward/swot-bloom-js.git"
   },
   "license": "ISC",
   "devDependencies": {
