@@ -4,6 +4,7 @@
   "description": "js implementation of swot using a bloom filter",
   "main": "dist/client.bundle.js",
   "scripts": {
+    "prepublishOnly": "npm test && npm run build",
     "test": "mocha --compilers js:babel-register",
     "build": "webpack",
     "generateFilter": "babel-node ./src/buildFilter.js",
